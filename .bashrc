@@ -135,7 +135,11 @@ export LANGUAGE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # conda init block
-source ~/.conda_init
+if [ -f ~/.conda_init ]; then
+    . ~/.conda_init
+fi
 
 # local config
-source ~/.bashrc_local
+if [ -f ~/.bashrc_local ]; then
+    . ~/.bashrc_local
+fi

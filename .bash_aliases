@@ -1,7 +1,10 @@
 ###############
 # SYSTEM      #
 ###############
-fortune | cowsay -n | lolcat
+if type fortune &> /dev/null
+then
+    fortune | cowsay -n | lolcat
+fi
 # get live weather forecasts
 # input: city
 weather () { curl wttr.in/"$1"; }
