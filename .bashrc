@@ -136,3 +136,6 @@ export LC_ALL=en_US.UTF-8
 
 # conda init block
 source ~/.conda_init
+
+# local config
+source ~/.bashrc_local
