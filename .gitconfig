@@ -7,3 +7,5 @@
 	ff = only
 [init]
 	defaultBranch = master
+[include]
+	path = ~/.gitconfig_local
