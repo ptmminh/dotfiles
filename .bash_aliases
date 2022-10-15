@@ -20,6 +20,7 @@ alias findpwd='find $(pwd) -maxdepth 1 -name'
 alias emacs="emacs -nw"
 alias tm="tmux a -t main"
 alias new_tm="tmux new -s main"
+alias speedtest="speedtest --secure"
 
 #############
 # WORK      #
