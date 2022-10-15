@@ -59,10 +59,13 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# incomplete without the following line in ~/.bashrc_local
+# to add custom emoji
+# export PS1="${PS1}<emoji> \$ "
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]🦊 \$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]'
 else
-   PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
 fi
 unset color_prompt force_color_prompt
 
