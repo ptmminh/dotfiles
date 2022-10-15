@@ -1,0 +1,9 @@
+[push]
+	default = simple
+[core]
+	autocrlf = input
+	editor = vim
+[pull]
+	ff = only
+[init]
+	defaultBranch = master
