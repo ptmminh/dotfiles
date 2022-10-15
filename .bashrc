@@ -129,9 +129,6 @@ fi
 # set LOGJ4 env variable
 export LOG4J_FORMAT_MSG_NO_LOOKUPS=true
 
-# to avoid bash automatically escape $
-shopt -s direxpand
-
 # set language locale
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
