@@ -1,0 +1,57 @@
+{
+    "autoDocstring.docstringFormat": "google",
+    "debug.console.fontSize": 12,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "docsView.documentationView.updateMode": "sticky",
+    "editor.fontSize": 12,
+    "editor.minimap.enabled": false,
+    "extensions.autoUpdate": false,
+    "git.allowForcePush": true,
+    "git.autofetch": true,
+    "gitlens.gitCommands.skipConfirmations": [
+        "branch-create:command",
+        "fetch:command",
+        "pull:command",
+        "stash-push:command",
+        "switch:command"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true
+    },
+    "jupyter.askForKernelRestart": false,
+    "jupyter.jupyterServerType": "local",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.runStartupCommands": [
+        "import pandas as pd",
+        "import numpy as np",
+        "import matplotlib.pyplot as plt",
+        "plt.style.use('fivethirtyeight')"
+    ],
+    "markdown.preview.fontSize": 12,
+    "python.analysis.logLevel": "Information",
+    "python.languageServer": "Pylance",
+    "python.linting.ignorePatterns": [
+        "**/site-packages/**/*.py",
+        ".vscode/*.py",
+        ".scratch.py"
+    ],
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+    },
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.inheritEnv": false,
+    "update.mode": "manual",
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Monokai",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb",
+        "git-rebase-todo": "gitlens.rebase"
+    },
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "workbench.preferredHighContrastColorTheme": "Monokai",
+    "workbench.preferredLightColorTheme": "Monokai",
+    "workbench.settings.editor": "ui"
+}
