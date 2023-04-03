@@ -11,6 +11,7 @@ weather () { curl wttr.in/"$1"; }
 alias cow_fortune="fortune | cowsay | lolcat"
 
 alias rm='trash-put'
+alias mv='mv -i'
 alias column="column -t -s,"
 alias diff="diff --color=always -u"
 alias ssh="ssh -XY"
