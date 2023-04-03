@@ -137,7 +137,7 @@ set backupdir^=~/.tmp,/tmp
 setlocal foldmethod=indent
 " enable color theme 
 " all available at /usr/share/vim/vim80/colors/
-colo delek
+colo murphy
 
 " remap C-v to q for vertical selection
 nnoremap q <c-v>
