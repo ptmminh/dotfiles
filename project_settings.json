@@ -1,0 +1,27 @@
+{
+    "path_to_environment": "/path/to/python/env/bin",
+    "repo_path": "/path/to/repo",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length=120"],
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintPath": "${config:path_to_environment}/pylint",
+    "python.linting.flake8Enabled": true,
+    "[python]": {
+        "editor.codeActionsOnSave":{
+            "source.organizeImports": true
+        }
+    },
+    "editor.formatOnSave":true,
+    "editor.insertSpaces": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestPath": "{config:path_to_environment}/pytest",
+    "python.analysis.logLevel": "Information",
+    "python.envFile": "${config:repo_path}/.env",
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${config:repo_path}"
+    },
+    "python.defaultInterpreterPath": "${config:path_to_environment}/python",
+    "files.exclude":{
+        ".git": true, // this is a default value
+    }
+}
