@@ -143,3 +143,7 @@ fi
 if [ -f ~/.bashrc_local ]; then
     . ~/.bashrc_local
 fi
+
+# not overwriting history
+shopt -s histappend
+PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
